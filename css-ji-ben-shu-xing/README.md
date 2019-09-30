@@ -4,7 +4,7 @@
 
 在html檔案中載入外部css檔
 
-```css
+```markup
 <head>
 <link href=“style.css”rel=“stylesheet” media=“all”>
 </head>
