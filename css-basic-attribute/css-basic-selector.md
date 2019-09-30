@@ -10,7 +10,7 @@ CSS選擇器最常用的幾種如下
 
 ### Class \(類別選擇器\)
 
-Class，「類別」選擇器，使用「.」開頭，Class名稱可自訂，一個class屬性值可以用在多個網頁上。
+Class，「類別」選擇器，使用「.」開頭，Class名稱可自訂，一個class屬性值可以用在多個網頁上，**名稱大小寫也代表不一樣的Class**。
 
 Class宣告的方法:  .Class屬性名稱
 
@@ -34,7 +34,7 @@ ID 選擇器，使用「\#」開頭，Class名稱也可以自訂，但一個ID�
 
 _ID宣告的方法: \# id名稱_
 
-```css
+```markup
 #TitleBanner 和 #tablebanner 兩個名稱代表不同ID
 ```
 
@@ -52,7 +52,7 @@ background-color:#fd7676;
 <div id="TitleBanner">此段會套用Class</div>
 ```
 
-### Type selectors（型態選取器）
+### element selector\(元素選擇器\)
 
 設定在HTML的屬性標籤上，一旦設定，全站往網頁都會套用。
 
@@ -61,7 +61,7 @@ h1 {color:red;}
 p {color:black;font-size:25px;}
 ```
 
-### Universal selector（通用選取器）
+### Universal selector（屬性選擇器）
 
 使用字元「**\***」，整個網頁下的所有元素都會套用。
 
@@ -69,21 +69,21 @@ p {color:black;font-size:25px;}
 * {color:red;}
 ```
 
-### Attribute selectors（屬性選取器）
+### Attribute selectors（屬性選擇器）
 
 屬性選擇器優點是不需要額外替這些網頁元素設定ID或是Class就可以選擇設定它。
 
 常見的 CSS Attribute Selectors 語法有：
 
-* **`[attribute]`**  用於選取 **帶有指定屬性** 的元素。
-* **`[attribute=value]`**  用於選取 **帶有指定屬性和值** 的元素。
-* **`[attribute~=value]`**  用於選取 **屬性值中包含指定詞彙** 的元素。
-* **`[attribute|=value]`**  用於選取 **帶有以指定值開頭的屬性值** 的元素，該值必須是整個單詞。
-* **`[attribute^=value]`**  匹配 **屬性值以指定值開頭** 的每個元素。
-* **`[attribute$=value]`**  匹配 **屬性值以指定值結尾** 的每個元素。
-* **`[attribute*=value]`**  匹配 **屬性值中包含指定值** 的每個元素。
+* **`[attr]`**  用於選取 **帶有指定屬性** 的元素。
+* **`[attr=value]`**  用於選取 **帶有指定屬性和值** 的元素。
+* **`[attr~=value]`**  用於選取 **屬性值中包含指定詞彙** 的元素。
+* **`[attr|=value]`**  用於選取 **帶有以指定值開頭的屬性值** 的元素，該值必須是整個單詞。
+* **`[attr^=value]`**  匹配 **屬性值以指定值開頭** 的每個元素。
+* **`[attr$=value]`**  匹配 **屬性值以指定值結尾** 的每個元素。
+* **`[attr*=value]`**  匹配 **屬性值中包含指定值** 的每個元素。
 
-####  **\[attribute\]**
+####  **\[attr\]**
 
 ```css
 /**此語法意思是要選擇網頁中的圖片元素(img)，而且圖片要有標示title屬性的
@@ -94,7 +94,7 @@ border: 1px gray solid;
 }
 ```
 
-####  **\[attribute=value\]**
+####  **\[attr=value\]**
 
 ```css
 /**此語法代表被選擇的網頁中圖片有title屬性且屬性的值是photo的圖片，沒有
