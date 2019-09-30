@@ -1,10 +1,10 @@
-# CSS基本選擇器\(一\)
+# CSS基本選擇器
 
 ![](../.gitbook/assets/image%20%285%29.png)
 
-### 
-
 ### 選擇器\(Selector\)：
+
+CSS選擇器最常用的幾種如下
 
 選擇器\(Selector\)：是一種模式，用於選擇你要添加的HTML 樣式元素。種類分成以下幾種
 
@@ -67,11 +67,11 @@ p {color:black;font-size:25px;}
 
 * **`[attribute]`**  用於選取 **帶有指定屬性** 的元素。
 * **`[attribute=value]`**  用於選取 **帶有指定屬性和值** 的元素。
-* **`[attribute~=value]`**
-* **`[attribute|=value]`**
-* **`[attribute^=value]`**
-* **`[attribute$=value]`**
-* **`[attribute*=value]`**
+* **`[attribute~=value]`**  用於選取 **屬性值中包含指定詞彙** 的元素。
+* **`[attribute|=value]`**  用於選取 **帶有以指定值開頭的屬性值** 的元素，該值必須是整個單詞。
+* **`[attribute^=value]`**  匹配 **屬性值以指定值開頭** 的每個元素。
+* **`[attribute$=value]`**  匹配 **屬性值以指定值結尾** 的每個元素。
+* **`[attribute*=value]`**  匹配 **屬性值中包含指定值** 的每個元素。
 
 ####  **\[attribute\]**
 
