@@ -104,3 +104,16 @@ border: 1px gray solid;
 }
 ```
 
+ **\[attribute~=value\]**
+
+```css
+img[title~="photo1"] {
+border: 1px gray solid;
+}
+```
+
+```markup
+<img src="範例圖片" title="photo1 good">
+<img src="範例圖片" title="photo2 good">
+```
+
