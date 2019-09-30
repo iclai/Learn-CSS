@@ -136,3 +136,53 @@ color:blue;
 <span title="T2">這段文字將維持原本的黑色</span>
 ```
 
+ **\[attribute^=value\]**
+
+```css
+/**只會選擇 title 屬性值中的字串開頭包含有 T1 的 span 元素，無論 T1 後還有沒有
+其它的字符都會被選取，但如果不包含 T1 或 T1 不在字串的開頭都不會被選取。**/
+span[title^="T1"] {
+color:red;
+}
+```
+
+```markup
+<span title="T1">這段文字將會變成紅色的</span><br>
+<span title="T12">這段文字將會變成紅色的</span><br>
+<span title="T2">這段文字將會維持原本的黑色</span>
+```
+
+ **\[attribute$=value\]**
+
+```css
+/**選擇 title 屬性值中的字串尾含有 T1 的 span 元素，例如第一個 span 與第二個
+ span 的 title 屬性值字尾都有 T1，所以會被選取，而第三個 span 的 title 屬性值
+ 字尾並沒有 T1，所以不會被選取。**/
+span[title$="T1"] {
+color:green;
+}
+```
+
+```markup
+<span title="ABC-T1">這段文字將會變成綠色的</span><br>
+<span title="DEF-T1">這段文字將會變成綠色的</span><br>
+<span title="DEF-T2">這段文字將會維持原本的黑色</span>
+```
+
+ **\[attribute\*=value\]**
+
+```css
+/**選擇 title 屬性值中含有 T1 字符的 span 元素，無論 T1 在 title 屬性值中的
+哪個部份，所以範例中的第一個 span 與第二個 span 都會被選取，而第三個 span 的 
+title 屬性值不包含 T1，所以不會被選取。**/
+span[title$="T1"] {
+color:orange;
+}
+```
+
+```markup
+<span title="ABC-T1-23">這段文字會變成橘色的</span><br>
+<span title="DEF-T122">這段文字會變成橘色的</span><br>
+<span title="DEF-T2">這段文字會維持原本的黑色</span>
+```
+
