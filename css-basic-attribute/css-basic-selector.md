@@ -65,13 +65,13 @@ p {color:black;font-size:25px;}
 
 常見的 CSS Attribute Selectors 語法有：
 
-* **`[attribute]`**
-* **`[attribute=value]`**
+* **`[attribute]`**  用於選取 **帶有指定屬性** 的元素。
+* **`[attribute=value]`**  用於選取 **帶有指定屬性和值** 的元素。
 * **`[attribute~=value]`**
 * **`[attribute|=value]`**
 * **`[attribute^=value]`**
 * **`[attribute$=value]`**
-* `[attribute*=value]`
+* **`[attribute*=value]`**
 
 ####  **\[attribute\]**
 
