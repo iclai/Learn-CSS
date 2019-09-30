@@ -107,6 +107,8 @@ border: 1px gray solid;
  **\[attribute~=value\]**
 
 ```css
+/**屬性值錢面加了一個~符號，表示要選擇的是網頁中圖片有 title 屬性，而且屬性值
+必須是有空格分開的字串，其中還必須有一個是 photo1，這樣才會被選取**/
 img[title~="photo1"] {
 border: 1px gray solid;
 }
@@ -115,5 +117,22 @@ border: 1px gray solid;
 ```markup
 <img src="圖片" title="photo1 good">
 <img src="圖片" title="photo2 good">
+```
+
+ **\[attribute\|=value\]**
+
+```css
+/**表示只會選擇 span 元素中有 title 屬性，且 title 屬性值中必須包含至少一個
+T1 或 T1 後連接著一個水平橫線符號（-），所以範例的第一個 span 與第二個 span 
+都會被選取，第三個 span 則不會被選取。**/
+span[title|="T1"] {
+color:blue;
+}
+```
+
+```markup
+<span title="T1">這段文字將會變成藍色的</span><br>
+<span title="T1-22">這段文字將會變成藍色的</span><br>
+<span title="T2">這段文字將維持原本的黑色</span>
 ```
 
