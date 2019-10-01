@@ -77,3 +77,11 @@ h1,h2,h3 { color: #f00909; }
 
 ![](../.gitbook/assets/image%20%287%29.png)
 
+###  Descendant selector**\(子孫選擇器**\)
+
+元素間的親子關係，父元素→子元素→孫元素，中間必須要有半形的空格分隔出元素標籤。
+
+```text
+div h1 a{ color: Black; } 
+```
+
