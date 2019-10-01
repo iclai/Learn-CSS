@@ -85,15 +85,29 @@ h1,h2,h3 { color: #f00909; }
 div h1 a{ color: Black; } 
 ```
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 ### Child selector\(子元素選擇器\)
 
 子選擇器只會選擇子元素，子元素的子元素或孫元素樣式不會受到影響。
+
+```css
+div>span {
+   color: Blue;
+   font-size: 30px;
+}
+```
 
 ![](../.gitbook/assets/image.png)
 
 ###  Adjacent sibling selector\(**相鄰選擇器\)**
 
 選擇相同一個父元素底下，同一層的相鄰兄弟，第一個相鄰的元素。
+
+```css
+.father {color: coral;}
+div+p {color: #ff0000;}
+```
+
+![](../.gitbook/assets/image%20%289%29.png)
 
