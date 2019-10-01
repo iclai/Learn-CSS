@@ -71,5 +71,9 @@ p {color:black;font-size:25px;}
 
 ### Group selectors（ **群組選擇器**）
 
+```css
+h1,h2,h3 { color: #f00909; }
+```
 
+![](../.gitbook/assets/image%20%287%29.png)
 
