@@ -58,10 +58,35 @@
 ```
 
 ```markup
+<head>
+ <link href="css/style.css" rel="stylesheet" media="all">
+</head>
+<body>
 <h2 class="title">這是主標題</h2>
+</body>
 ```
 
 ![](.gitbook/assets/s.jpg)
 
+### **＠import載入**
 
+```css
+.big_title {
+  color: #b012ee;
+  font-size: 50px;
+}
+```
+
+```markup
+<head>
+<style>
+    @import url(css/style.css);
+</style>
+</head>
+<body>
+<h2 class="big_title">這是主標題</h2>
+</body>
+```
+
+![](.gitbook/assets/s2.jpg)
 
