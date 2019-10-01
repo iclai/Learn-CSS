@@ -85,7 +85,7 @@ h1,h2,h3 { color: #f00909; }
 div h1 a{ color: Black; } 
 ```
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
 ### Child selector\(子元素選擇器\)
 
@@ -109,5 +109,5 @@ div>span {
 div+p {color: #ff0000;}
 ```
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
