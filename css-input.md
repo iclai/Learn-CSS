@@ -22,6 +22,21 @@
 
 將CSS寫在HTML文件的頭部&lt;head&gt;元素中。
 
+```markup
+<head>
+  <style>
+    h2 {
+      color: #f00909;
+      font-size: 50px;
+    }
+  </style>
+  </head>
+```
+
+```markup
+<h2>這是主標題</h2>
+```
+
 ![](.gitbook/assets/image%20%288%29.png)
 
 將CSS寫在HTML的&lt;head&gt;中，雖然是有將CSS和HTML分開，但寫在單獨這一頁的CSS就只能給這一頁的HTML用而已，其他的HTML頁面無法共用，除非是這一頁獨有樣式，才會這樣寫，所以也不建議這種編寫方式。
