@@ -41,3 +41,27 @@
 
 將CSS寫在HTML的&lt;head&gt;中，雖然是有將CSS和HTML分開，但寫在單獨這一頁的CSS就只能給這一頁的HTML用而已，其他的HTML頁面無法共用，除非是這一頁獨有樣式，才會這樣寫，所以也不建議這種編寫方式。
 
+### 載入外部 CSS
+
+將CSS另外存成一個 .CSS檔案，並從HTML的&lt;head&gt;引入進來， 引入的方法有2種方式。
+
+* **link 元素**
+* **＠import**
+
+### 載入link
+
+```css
+.title {
+  color: #11b843;
+  font-size: 50px;
+}
+```
+
+```markup
+<h2 class="title">這是主標題</h2>
+```
+
+![](.gitbook/assets/s.jpg)
+
+
+
