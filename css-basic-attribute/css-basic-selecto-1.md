@@ -1,6 +1,6 @@
 # CSS基本選擇器\(一\)
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 
 ### 選擇器\(Selector\)：
 
@@ -75,13 +75,25 @@ p {color:black;font-size:25px;}
 h1,h2,h3 { color: #f00909; }
 ```
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 ###  Descendant selector**\(子孫選擇器**\)
 
 元素間的親子關係，父元素→子元素→孫元素，中間必須要有半形的空格分隔出元素標籤。
 
-```text
+```css
 div h1 a{ color: Black; } 
 ```
+
+![](../.gitbook/assets/image%20%2813%29.png)
+
+### Child selector\(子元素選擇器\)
+
+子選擇器只會選擇子元素，子元素的子元素或孫元素樣式不會受到影響。
+
+![](../.gitbook/assets/image.png)
+
+###  Adjacent sibling selector\(**相鄰選擇器\)**
+
+選擇相同一個父元素底下，同一層的相鄰兄弟，第一個相鄰的元素。
 
