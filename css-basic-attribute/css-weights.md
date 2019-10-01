@@ -23,3 +23,7 @@ CSS **寫在後面的敘述，優先於寫在前面的敘述**
 
 ![](../.gitbook/assets/s4.jpg)
 
+### CSS 優先順位
+
+![](../.gitbook/assets/quan-zhong.jpg)
+
