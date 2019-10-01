@@ -37,5 +37,27 @@ a:active {color: darkorchid;}
 
 清單連結CSS設定
 
-![](.gitbook/assets/image%20%2816%29.png)
+![](.gitbook/assets/image%20%2817%29.png)
+
+```css
+/* 單獨設定第二個按鈕 */
+    li a span {
+      border: 2px dotted #ce1625;
+      width: 198px;
+      height: 28px;
+      display: block;
+    }
+```
+
+```markup
+<h1>我的菜單食譜</h1>
+  <ul class="menu">
+    <li><a href="https://tw.yahoo.com/" target="_black">紅酒燉牛肉食譜</a></li>
+    <li><a href="#"><span>紅燒牛肉食譜</span></a></li>
+    <li><a href="#">蔥爆牛肉食譜</a></li>
+    <li><a href="https://www.momoshop.com.tw/" target="_black">沙茶青椒牛肉食譜</a></li>
+  </ul>
+```
+
+![](.gitbook/assets/image%20%2815%29.png)
 
