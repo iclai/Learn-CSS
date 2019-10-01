@@ -27,3 +27,11 @@ CSS **寫在後面的敘述，優先於寫在前面的敘述**
 
 ![](../.gitbook/assets/quan-zhong.jpg)
 
+###  **!important**
+
+ **!important會忽略所有的CSS，也是最高優先權**
+
+![](../.gitbook/assets/image%20%287%29.png)
+
+![](../.gitbook/assets/image%20%283%29.png)
+
