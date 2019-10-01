@@ -45,7 +45,7 @@
 
 將CSS另外存成一個 .CSS檔案，並從HTML的&lt;head&gt;引入進來， 引入的方法有2種方式。
 
-* **link 元素**
+* **link 元素\(最常用\)**
 * **＠import**
 
 ### 載入link
@@ -89,4 +89,12 @@
 ```
 
 ![](.gitbook/assets/s2.jpg)
+
+{% hint style="info" %}
+在HTML 套用CSS，最常用的就是用link 引入，因為可以多個網頁共用同一個CSS，且檔案維護也比較容易。
+{% endhint %}
+
+> 以上這幾種CSS套用方式，也是有優先順序的權重問題
+>
+> ### **行內\(inline\) ＞ HTML內部載入 ＞ 外部載入CSS** <a id="3f1e"></a>
 
