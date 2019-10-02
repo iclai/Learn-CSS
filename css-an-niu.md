@@ -31,13 +31,13 @@ a:active {color: darkorchid;}
   </ul>
 ```
 
-![](.gitbook/assets/image%20%2810%29.png)
+![](.gitbook/assets/image%20%2811%29.png)
 
 ### 清單按鈕
 
 清單連結CSS設定
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](.gitbook/assets/image%20%2818%29.png)
 
 ```css
 /* 單獨設定第二個按鈕 */
@@ -59,5 +59,5 @@ a:active {color: darkorchid;}
   </ul>
 ```
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](.gitbook/assets/image%20%2816%29.png)
 
