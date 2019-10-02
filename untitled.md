@@ -10,7 +10,7 @@ description: 這是CSS裡，很重要的一個觀念
 
 藍色框代表網頁內容，margin是代表以內容物為中心，往外擴張，padding則是以內容物為中心，往內縮。
 
-![](.gitbook/assets/image%20%2810%29.png)
+![](.gitbook/assets/image%20%2811%29.png)
 
 margin 和 padding各別設定:
 
