@@ -31,5 +31,15 @@ padding-left: 值;
 
 ### Padding 操作範例
 
+![](.gitbook/assets/p01.jpg)
 
+### Margin作範例
+
+![](.gitbook/assets/p02.jpg)
+
+### 簡寫方法
+
+padding 和 margin 很常運用在網頁中，簡化寫法，會加快編寫速度。
+
+![](.gitbook/assets/p03.jpg)
 
