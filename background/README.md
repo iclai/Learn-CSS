@@ -22,7 +22,12 @@ background-color: orange;
 background: radial-gradient(yellow, red);
 ```
 
-### 
+### **background-repeat** 背景圖是否要重複
+
+* repeat 背景圖在水平與垂直重複 \(此為預設值\)。
+* repeat-x 背景圖只在水平重複。
+* repeat-y 背景圖只在垂直重複。
+* no-repeat 背景圖不重複，只排列一次。
 
 ### 圖片當背景
 
