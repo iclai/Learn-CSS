@@ -14,7 +14,7 @@
 <h2 style="color: blue; font-size:50px;">這是主標題</h2>
 ```
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
 這寫法很直覺，但如果HTML很多行，你每一行都都單獨設定CSS樣式，到時後要修改或是維護會很麻煩，所以不建議將CSS樣式寫在HTML行內裡。
 
@@ -37,7 +37,7 @@
 <h2>這是主標題</h2>
 ```
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](../.gitbook/assets/image%20%2828%29.png)
 
 將CSS寫在HTML的&lt;head&gt;中，雖然是有將CSS和HTML分開，但寫在單獨這一頁的CSS就只能給這一頁的HTML用而已，其他的HTML頁面無法共用，除非是這一頁獨有樣式，才會這樣寫，所以也不建議這種編寫方式。
 
@@ -114,7 +114,7 @@
 
 假如同一個元素有行內CSS 和 外部載入的CSS ，會先以行內的CSS設定為主
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
 HTML內部載入會蓋過另外寫在外部的CSS
 
