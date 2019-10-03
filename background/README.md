@@ -31,7 +31,7 @@ background: radial-gradient(yellow, red);
 
 ### 圖片當背景
 
-![](../.gitbook/assets/image%20%2835%29.png)
+![](../.gitbook/assets/image%20%2836%29.png)
 
 ```css
  background: url("../images/superwoman.jpg") no-repeat;
@@ -39,7 +39,7 @@ background: radial-gradient(yellow, red);
 
 ### 填滿圖片背景
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
 ```css
 background-image: url("../images/hart.jpg");
@@ -55,7 +55,7 @@ background-image: url("../images/hart.jpg");
 
 背景從手機畫面呈現，會維持原始比例。
 
-![](../.gitbook/assets/image%20%2838%29.png)
+![](../.gitbook/assets/image%20%2839%29.png)
 
 ###  [imgur 線上免費圖床](https://imgur.com/)
 
