@@ -13,13 +13,13 @@ background-color: orange;
 ![](.gitbook/assets/image%20%286%29.png)
 
 ```css
-background-image: radial-gradient(yellow, red);
+background: radial-gradient(yellow, red);
 ```
 
 ![](.gitbook/assets/image%20%2823%29.png)
 
 ```css
- background: no-repeat url("./superwoman.jpg");
+ background: url("../images/superwoman.jpg") no-repeat;
 ```
 
 ![](.gitbook/assets/image%20%2822%29.png)
