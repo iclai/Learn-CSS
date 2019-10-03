@@ -4,5 +4,5 @@
 
 ![&#x5C07;CSS&#x6587;&#x4EF6;&#x53E6;&#x653E;&#x5728;&#x4E00;&#x500B;&#x8CC7;&#x6599;&#x593E;](.gitbook/assets/image%20%2814%29.png)
 
-![&#x9996;&#x9801;&#x55AE;&#x7368;&#x4F7F;&#x7528;&#x4E00;&#x500B;CSS&#x6587;&#x4EF6;](.gitbook/assets/image%20%2838%29.png)
+![&#x9996;&#x9801;&#x55AE;&#x7368;&#x4F7F;&#x7528;&#x4E00;&#x500B;CSS&#x6587;&#x4EF6;](.gitbook/assets/image%20%2839%29.png)
 
