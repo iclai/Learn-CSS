@@ -31,7 +31,7 @@ CSS **寫在後面的敘述，優先於寫在前面的敘述**
 
  **!important會忽略所有的CSS，也是最高優先權**
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
 ![](../.gitbook/assets/image%20%285%29.png)
 
