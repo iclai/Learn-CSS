@@ -14,3 +14,8 @@
 
 background: linear-gradient\(顏色漸變方向&lt;開始方向    結束方向&gt;, 色碼1 位置1,色碼2 位置2,....\)
 
+* 顏色漸變方向，預設值為由上而下   **`linear-gradient(yellow,red);`**
+* 由左而右的線性漸層效果   **`background: linear-gradient(to right,yellow,red);`**
+* 對角線的線性漸層效果（由左下向右上） **`background: linear-gradient(to bottom right,yellow,red);`**
+* 角度調整的線性漸層效果  **`background: linear-gradient(90deg,yellow,red);`**
+
