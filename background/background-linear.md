@@ -23,9 +23,13 @@ background: linear-gradient\(顏色漸變方向&lt;開始方向    結束方向&
 
 ### [Css Gradient](https://cssgradient.io)
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
-### uigradients
+### [uigradients](https://uigradients.com/#CoolBlues)
 
 ![](../.gitbook/assets/image%20%283%29.png)
+
+### [webgradients](https://webgradients.com/)
+
+![](../.gitbook/assets/image%20%2813%29.png)
 
