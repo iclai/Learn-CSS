@@ -48,3 +48,7 @@ background-image: url("../images/hart.jpg");
 
 ![](.gitbook/assets/b01.jpg)
 
+背景從手機畫面呈現，會維持原始比例。
+
+![](.gitbook/assets/image%20%2829%29.png)
+
