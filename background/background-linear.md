@@ -2,7 +2,7 @@
 
 ### Linear 線性漸層
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 ### Radial 放射狀漸層
 
@@ -23,5 +23,9 @@ background: linear-gradient\(顏色漸變方向&lt;開始方向    結束方向&
 
 ### [Css Gradient](https://cssgradient.io)
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
+
+### uigradients
+
+![](../.gitbook/assets/image%20%283%29.png)
 

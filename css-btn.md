@@ -2,7 +2,7 @@
 
 ### `<a>`的連結的顏色設定
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](.gitbook/assets/image%20%2816%29.png)
 
 ```css
 <!-- CSS 滑鼠效果設定-->
@@ -31,13 +31,13 @@ a:active {color: darkorchid;}
   </ul>
 ```
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](.gitbook/assets/image%20%2818%29.png)
 
 ### 清單按鈕
 
 清單連結CSS設定
 
-![](.gitbook/assets/image%20%2830%29.png)
+![](.gitbook/assets/image%20%2831%29.png)
 
 ### 假設第二個按鈕效果要不同
 
@@ -63,5 +63,5 @@ a:active {color: darkorchid;}
 
 _**請注意，邊框厚度也要算進去。**_
 
-![](.gitbook/assets/image%20%2827%29.png)
+![](.gitbook/assets/image%20%2828%29.png)
 
