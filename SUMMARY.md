@@ -12,5 +12,4 @@
 * [背景設定](background/README.md)
   * [漸層背景](background/background-linear.md)
   * [background-size背景圖片大小](background/backgroundsize-bei-jing-tu-pian-da-xiao.md)
-* [Untitled](untitled.md)
 
