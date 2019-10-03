@@ -19,3 +19,9 @@ background: linear-gradient\(顏色漸變方向&lt;開始方向    結束方向&
 * 對角線的線性漸層效果（由左下向右上） **`background: linear-gradient(to bottom right,yellow,red);`**
 * 角度調整的線性漸層效果  **`background: linear-gradient(90deg,yellow,red);`**
 
+### 線上漸層工具
+
+### [Css Gradient](https://cssgradient.io)
+
+![](../.gitbook/assets/image%20%2822%29.png)
+

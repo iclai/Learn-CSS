@@ -37,7 +37,7 @@ a:active {color: darkorchid;}
 
 清單連結CSS設定
 
-![](.gitbook/assets/image%20%2829%29.png)
+![](.gitbook/assets/image%20%2830%29.png)
 
 ### 假設第二個按鈕效果要不同
 
@@ -63,5 +63,5 @@ a:active {color: darkorchid;}
 
 _**請注意，邊框厚度也要算進去。**_
 
-![](.gitbook/assets/image%20%2826%29.png)
+![](.gitbook/assets/image%20%2827%29.png)
 
