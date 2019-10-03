@@ -59,7 +59,11 @@ background-image: url("../images/hart.jpg");
 
 ###  [imgur 線上免費圖床](https://imgur.com/)
 
- imgur 是一個老牌的圖片上傳空間，
+ imgur 是一個老牌的圖片上傳空間，imgur 沒有空間限制，不註冊也可以使用。
+
+imgur 支援 JPEG, PNG, GIF, APNG, TIFF, BMP, PDF, XCF \(GIMP\) 等圖片格式，TIFF, BMP, PDF 和 XCF \(GIMP\) 會自動被轉為 PNG 上傳。圖片大小限制為 10 MB。
+
+但是圖片在 6 個月內都沒有任何人檢視，就會自動從系統中移除。
 
 ![](../.gitbook/assets/image%20%2826%29.png)
 
