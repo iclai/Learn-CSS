@@ -25,6 +25,6 @@ background: radial-gradient(yellow, red);
 ![](.gitbook/assets/image%20%2822%29.png)
 
 ```css
-Background: repeat url("../hart.jpg");
+Background: url("../hart.jpg");
 ```
 
