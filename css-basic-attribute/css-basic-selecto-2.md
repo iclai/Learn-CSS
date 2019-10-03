@@ -4,7 +4,7 @@
 
 屬性選擇器優點是不需要額外替這些網頁元素設定ID或是Class就可以選擇設定它。
 
-常見的 CSS Attribute Selectors 語法有：
+ CSS Attribute Selectors 語法有：
 
 * **`[attr]`**  用於選取 **帶有指定屬性** 的元素。
 * **`[attr=value]`**  用於選取 **帶有指定屬性和值** 的元素。
